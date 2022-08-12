@@ -18,6 +18,7 @@ link_list=[]
 for data in soup.find_all('sup',class_="reference"):
     link=data.find_all('a')
     link_list.append(link)
+    
 # print(link_list)    
     # print("------------------")
     # para=data.find_all('div',class_="mw-indicators")
